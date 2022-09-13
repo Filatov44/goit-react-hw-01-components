@@ -6,6 +6,7 @@ export const ProfileContainer = styled.div`
   box-shadow: 0px 0px 6px 2px #ffffff50;
   border-radius: 5px;
   border: 2px solid #000000;
+  margin: auto;
 `;
 
 export const ProfileDescription = styled.div`
