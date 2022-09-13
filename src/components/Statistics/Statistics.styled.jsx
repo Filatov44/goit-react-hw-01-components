@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { RandomColor } from './RandomColor';
 export const StatisticSection = styled.section`
   display: flex;
   flex-direction: column;
@@ -23,10 +23,8 @@ export const StatisticItem = styled.li`
   text-align: center;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color: red;
-  /* background-color: ${Math.floor(Math.random() * 16777215).toString(
-              16
-            )} ; */
+  /* background-color: red; */
+  background-color: #${RandomColor};
   width: 100px;
   padding: 10px 0px;
 `;
